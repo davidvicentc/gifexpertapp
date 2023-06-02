@@ -12,7 +12,7 @@ export const GifExpertApp = () => {
 
   return (
     <>
-      <h1>Gif Expert App</h1>
+      <h1>Gif Expert App - VicentDEV</h1>
       <AddCategory onNewCategory={(value) => onAddCategory(value)} />
       {/* onNewCategory devuelve un valor que se lo asginamos al onAddCategory */}
       {categories.map((category) => (

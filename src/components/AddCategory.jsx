@@ -15,12 +15,17 @@ export const AddCategory = ({ onNewCategory }) => {
   };
   return (
     <form onSubmit={onSubmit}>
-      <input
-        type="text"
-        placeholder="Buscar Gifs"
-        onChange={onInputChange}
-        value={inputValue}
-      ></input>
+      <div className="content-search">
+        <input
+          type="text"
+          placeholder="Buscar Gifs"
+          onChange={onInputChange}
+          value={inputValue}
+        ></input>
+        <button type="submit" className="btn-search">
+          Buscar
+        </button>
+      </div>
     </form>
   );
 };
